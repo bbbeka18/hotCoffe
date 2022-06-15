@@ -1,0 +1,24 @@
+.footer {
+    &__icon {
+        padding-right: 80px;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #E8E8E8;
+        margin-top: 111px;
+    }
+    &__title {
+        @include font(400, 16px, $text-black);
+        margin-top: 29px;
+        margin-bottom: 31px;
+        margin-left: 89px;
+    }
+    &__span {
+        @include font(700, 16px, $text-black);
+    }
+    &__list {
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+}   

@@ -1,0 +1,6 @@
+@mixin font($emirlan, $erjan, $rahim) {
+    font-family: "Inter";
+    font-weight: $emirlan;
+    font-size: $erjan;
+    color: $rahim;
+}

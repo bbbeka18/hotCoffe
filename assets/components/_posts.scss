@@ -1,0 +1,50 @@
+.posts {
+    margin-top: 43px;
+    &__info {
+        padding-right: 25px;
+        padding-left: 17px;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        @include font(700, 20px, #2D3748);
+        margin-top: 18px;
+    }
+    &__description {
+        @include font(400, 14px, $text-gray);
+        margin-top: 15px;
+        margin-bottom: 22px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__date {
+        @include font(400, 12px, $text-gray);
+        margin-bottom: 24px;
+    }
+    &__details {
+        @include font(700, 12px, #2D3748);
+        margin-bottom: 24px;
+    }
+    &__box {
+        width: 297px;
+        box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .posts {
+        &__content {
+            display: block;
+        }
+        &__box {
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+    }
+}

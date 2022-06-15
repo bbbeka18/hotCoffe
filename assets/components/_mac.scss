@@ -1,0 +1,31 @@
+.mac {
+    margin-top: 43px;
+    &__content {
+        display: flex;
+    }
+    &__title {
+        @include font(700, 40px, $text-black);
+        margin-top: 98px;
+    }
+    &__description {
+        @include font(400, 16px, $text-gray);
+        margin-top: 24px;
+        margin-bottom: 31px;
+    }
+    &__date {
+        @include font(400, 16px, $text-gray);
+    }
+    &__details {
+        @include font(700, 16px, #2D3748);
+
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        background: #F7FAFC;
+        padding-left: 63px;
+        padding-right: 66px;
+    }
+}

@@ -1,0 +1,44 @@
+.hero {
+    padding: 70px 0 74px 0;
+    background: #FBFBFB;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        @include font(700, 60px, $text-black);
+    }
+    &__suptitle {
+        @include font(400, 30px, #4A5568);
+        margin-top: 19px;
+    }
+    &__relative {
+        position: relative;
+    }
+    &__cup {
+        position: absolute;
+        right: -95px;
+        top: -11px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .hero {
+        &__content {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__right {
+            margin-top: 100px;
+        }
+        &__cup {
+            top: 55px;
+            right: 120px;
+            
+        }
+
+    }
+    
+}
+

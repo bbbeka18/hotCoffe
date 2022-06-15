@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.container {
+  max-width: 951px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding: 36px 0 25px 0;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__search--icon {
+  margin-right: 12px;
+}
+
+.header__logo {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+
+.header__link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  margin-left: 30px;
+}
+
+.header__input {
+  border: none;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #718096;
+}
+
+.header__input--icon {
+  margin-right: 12px;
+}
+
+.hero {
+  padding: 70px 0 74px 0;
+  background: #FBFBFB;
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 60px;
+  color: #000;
+}
+
+.hero__suptitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 30px;
+  color: #4A5568;
+  margin-top: 19px;
+}
+
+.hero__relative {
+  position: relative;
+}
+
+.hero__cup {
+  position: absolute;
+  right: -95px;
+  top: -11px;
+}
+
+@media screen and (max-width: 870px) {
+  .hero__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero__right {
+    margin-top: 100px;
+  }
+  .hero__cup {
+    top: 55px;
+    right: 120px;
+  }
+}
+
+.actual__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #E2E2E2;
+  -webkit-box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+          box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  border-radius: 5px;
+}
+
+.actual__left {
+  padding-right: 77px;
+  padding-left: 52px;
+}
+
+.actual__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 30px;
+  color: #2D3748;
+}
+
+.actual__description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: #718096;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.actual__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.actual__date {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  color: #718096;
+}
+
+.actual__details {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 12px;
+  color: #2D3748;
+}
+
+.posts {
+  margin-top: 43px;
+}
+
+.posts__info {
+  padding-right: 25px;
+  padding-left: 17px;
+}
+
+.posts__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.posts__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  color: #2D3748;
+  margin-top: 18px;
+}
+
+.posts__description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: #718096;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+.posts__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.posts__date {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  color: #718096;
+  margin-bottom: 24px;
+}
+
+.posts__details {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 12px;
+  color: #2D3748;
+  margin-bottom: 24px;
+}
+
+.posts__box {
+  width: 297px;
+  -webkit-box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+          box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 930px) {
+  .posts__content {
+    display: block;
+  }
+  .posts__box {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.mac {
+  margin-top: 43px;
+}
+
+.mac__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mac__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+  margin-top: 98px;
+}
+
+.mac__description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #718096;
+  margin-top: 24px;
+  margin-bottom: 31px;
+}
+
+.mac__date {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #718096;
+}
+
+.mac__details {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  color: #2D3748;
+}
+
+.mac__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mac__left {
+  background: #F7FAFC;
+  padding-left: 63px;
+  padding-right: 66px;
+}
+
+.footer__icon {
+  padding-right: 80px;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #E8E8E8;
+  margin-top: 111px;
+}
+
+.footer__title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  margin-top: 29px;
+  margin-bottom: 31px;
+  margin-left: 89px;
+}
+
+.footer__span {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.footer__list {
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+body {
+  font-family: "Inter";
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */
